@@ -2319,6 +2319,21 @@
 					<Item Name="Counter (U16).vi" Type="VI" URL="/&lt;vilib&gt;/RQC/FPGA Basic Logic/Counters/Counter (U16).vi"/>
 					<Item Name="Counter (U32).vi" Type="VI" URL="/&lt;vilib&gt;/RQC/FPGA Basic Logic/Counters/Counter (U32).vi"/>
 				</Item>
+				<Item Name="rqcAlice DAC Clock Positions.ctl" Type="VI" URL="../FPGA/Alice/Custom Controls/Main State Machine/rqcAlice DAC Clock Positions.ctl"/>
+				<Item Name="rqcAlice Mod.Config.ctl" Type="VI" URL="../FPGA/Alice/Custom Controls/Phase Modulator/rqcAlice Mod.Config.ctl"/>
+				<Item Name="rqc Random Generator.parameters.ctl" Type="VI" URL="../../../Shared/Shared FPGA Lib/Shared Logic/Custom Controls/rqc Random Generator.parameters.ctl"/>
+				<Item Name="rqc Random Generator.value type.ctl" Type="VI" URL="../../../Shared/Shared FPGA Lib/Shared Logic/Custom Controls/rqc Random Generator.value type.ctl"/>
+				<Item Name="rqcAlice Pulse Detector And DAC Clock (FPGA).vi" Type="VI" URL="../FPGA/Alice/DAC Clock/rqcAlice Pulse Detector And DAC Clock (FPGA).vi"/>
+				<Item Name="rqcAlice Modulator (FPGA).vi" Type="VI" URL="../FPGA/Alice/Phase Modulator/rqcAlice Modulator (FPGA).vi"/>
+				<Item Name="rqc FIFO Write.vi" Type="VI" URL="../../../Shared/Shared FPGA Lib/Shared Logic/FIFO/rqc FIFO Write.vi"/>
+				<Item Name="rqc FIFO Write (U8).vi" Type="VI" URL="../../../Shared/Shared FPGA Lib/Shared Logic/FIFO/FIFO.write/rqc FIFO Write (U8).vi"/>
+				<Item Name="rqc FIFO Write (U32).vi" Type="VI" URL="../../../Shared/Shared FPGA Lib/Shared Logic/FIFO/FIFO.write/rqc FIFO Write (U32).vi"/>
+				<Item Name="rqc FIFO Write (U16).vi" Type="VI" URL="../../../Shared/Shared FPGA Lib/Shared Logic/FIFO/FIFO.write/rqc FIFO Write (U16).vi"/>
+				<Item Name="rqcAlice SPI (FPGA).vi" Type="VI" URL="../FPGA/Alice/Pseudo SPI/rqcAlice SPI (FPGA).vi"/>
+				<Item Name="rqcAlice SPI state.ctl" Type="VI" URL="../FPGA/Alice/Custom Controls/Pseudo SPI/rqcAlice SPI state.ctl"/>
+				<Item Name="rqcAlice PS states.ctl" Type="VI" URL="../FPGA/Alice/Custom Controls/Pseudo SPI/rqcAlice PS states.ctl"/>
+				<Item Name="rqc Clock Generator.vi" Type="VI" URL="../../../Shared/Shared FPGA Lib/Shared Logic/rqc Clock Generator.vi"/>
+				<Item Name="rqc Random Number Generator.vi" Type="VI" URL="../../../Shared/Shared FPGA Lib/Shared Logic/rqc Random Number Generator.vi"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="rqcAlice FPGA (7811R)" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
