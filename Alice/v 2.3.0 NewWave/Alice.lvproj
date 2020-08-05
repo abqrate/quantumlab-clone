@@ -2376,7 +2376,7 @@
 					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
 					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/Eveny Krivoshein/Documents/QRATE/QuantumLab/Alice/v 2.3.0 NewWave/FPGA Bitfiles/rqcAlice FPGA (7811R) v 3.0.0.lvbitx</Property>
 					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/rqcAlice FPGA (7811R) v 3.0.0.lvbitx</Property>
-					<Property Name="ProjectPath" Type="Path">/C/Users/Eveny Krivoshein/Documents/QRATE/QuantumLab/Alice/v 2.3.0 NewWave/Alice.lvproj</Property>
+					<Property Name="ProjectPath" Type="Path">/C/Users/Сколково_2/Desktop/QuantumLab/LV2018/Alice/v 2.3.0 NewWave/Alice.lvproj</Property>
 					<Property Name="RelativePath" Type="Bool">true</Property>
 					<Property Name="RunWhenLoaded" Type="Bool">false</Property>
 					<Property Name="SupportDownload" Type="Bool">true</Property>
@@ -6806,6 +6806,7 @@
 			<Item Name="rqcAlice SPI PM Level test 1.0.0.lvbitx" Type="Document" URL="../FPGA Bitfiles/rqcAlice SPI PM Level test 1.0.0.lvbitx"/>
 			<Item Name="rqc Random Generator.value type.ctl" Type="VI" URL="../../../Shared/Shared FPGA Lib/Shared Logic/Custom Controls/rqc Random Generator.value type.ctl"/>
 			<Item Name="rqc Random Generator.parameters.ctl" Type="VI" URL="../../../Shared/Shared FPGA Lib/Shared Logic/Custom Controls/rqc Random Generator.parameters.ctl"/>
+			<Item Name="rqcAlice FPGA (7811R) v 3.0.0.lvbitx" Type="Document" URL="../FPGA Bitfiles/rqcAlice FPGA (7811R) v 3.0.0.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
