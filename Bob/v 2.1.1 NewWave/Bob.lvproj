@@ -2413,11 +2413,11 @@
 					<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 					<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 					<Property Name="Comp.RandomSeed" Type="Bool">true</Property>
-					<Property Name="Comp.Version.Build" Type="Int">0</Property>
+					<Property Name="Comp.Version.Build" Type="Int">1</Property>
 					<Property Name="Comp.Version.Fix" Type="Int">0</Property>
 					<Property Name="Comp.Version.Major" Type="Int">1</Property>
 					<Property Name="Comp.Version.Minor" Type="Int">0</Property>
-					<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+					<Property Name="Comp.VersionAutoIncrement" Type="Bool">true</Property>
 					<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
 					<Property Name="Comp.Vivado.OptDirective" Type="Str"></Property>
 					<Property Name="Comp.Vivado.PhysOptDirective" Type="Str"></Property>
@@ -5441,7 +5441,7 @@
 					<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 					<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 					<Property Name="Comp.RandomSeed" Type="Bool">true</Property>
-					<Property Name="Comp.Version.Build" Type="Int">85</Property>
+					<Property Name="Comp.Version.Build" Type="Int">86</Property>
 					<Property Name="Comp.Version.Fix" Type="Int">0</Property>
 					<Property Name="Comp.Version.Major" Type="Int">1</Property>
 					<Property Name="Comp.Version.Minor" Type="Int">0</Property>
