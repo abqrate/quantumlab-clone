@@ -2374,6 +2374,35 @@
 					<Item Name="Counter (U16).vi" Type="VI" URL="/&lt;vilib&gt;/RQC/FPGA Basic Logic/Counters/Counter (U16).vi"/>
 					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				</Item>
+				<Item Name="rqcBob Trigger Type.ctl" Type="VI" URL="../FPGA/rqcBob/Custom Controls/rqcBob Trigger Type.ctl"/>
+				<Item Name="rqcBob Main SM.ctl" Type="VI" URL="../FPGA/rqcBob/Custom Controls/Main State Machine/rqcBob Main SM.ctl"/>
+				<Item Name="rqcBob Main Operation State.ctl" Type="VI" URL="../FPGA/rqcBob/Custom Controls/Main State Machine/rqcBob Main Operation State.ctl"/>
+				<Item Name="rqcBob Main Operation Parameters.ctl" Type="VI" URL="../FPGA/rqcBob/Custom Controls/Main State Machine/rqcBob Main Operation Parameters.ctl"/>
+				<Item Name="rqcBob Pulse Train Config.ctl" Type="VI" URL="../FPGA/rqcBob/Custom Controls/Pulse Train/rqcBob Pulse Train Config.ctl"/>
+				<Item Name="rqcBob Pulse Train.Generation Mode.ctl" Type="VI" URL="../FPGA/rqcBob/Custom Controls/Pulse Train/rqcBob Pulse Train.Generation Mode.ctl"/>
+				<Item Name="rqcBob Pulse Train.First Pulse Delay Mode.ctl" Type="VI" URL="../FPGA/rqcBob/Custom Controls/Pulse Train/rqcBob Pulse Train.First Pulse Delay Mode.ctl"/>
+				<Item Name="rqcBob Modulator Config.ctl" Type="VI" URL="../FPGA/rqcBob/Custom Controls/rqcBob Modulator Config.ctl"/>
+				<Item Name="rqcBob Window Config.ctl" Type="VI" URL="../FPGA/rqcBob/Custom Controls/rqcBob Window Config.ctl"/>
+				<Item Name="rqcBob Detector Settings.ctl" Type="VI" URL="../FPGA/rqcBob/Custom Controls/rqcBob Detector Settings.ctl"/>
+				<Item Name="rqc Random Generator.parameters.ctl" Type="VI" URL="../../../Shared/Shared FPGA Lib/Shared Logic/Custom Controls/rqc Random Generator.parameters.ctl"/>
+				<Item Name="rqc Random Generator.value type.ctl" Type="VI" URL="../../../Shared/Shared FPGA Lib/Shared Logic/Custom Controls/rqc Random Generator.value type.ctl"/>
+				<Item Name="rqc Clock Generator.vi" Type="VI" URL="../../../Shared/Shared FPGA Lib/Shared Logic/rqc Clock Generator.vi"/>
+				<Item Name="rqcBob Trigger Router (FPGA).vi" Type="VI" URL="../FPGA/rqcBob/rqcBob Trigger Router (FPGA).vi"/>
+				<Item Name="rqcBob Main Operation SM (FPGA).vi" Type="VI" URL="../FPGA/rqcBob/rqcBob Main Operation SM (FPGA).vi"/>
+				<Item Name="rqcBob HW Control.ctl" Type="VI" URL="../FPGA/rqcBob/Custom Controls/rqcBob HW Control.ctl"/>
+				<Item Name="rqcBob Modulator (FPGA).vi" Type="VI" URL="../FPGA/rqcBob/rqcBob Modulator (FPGA).vi"/>
+				<Item Name="rqcBob Get Detection Window.vi" Type="VI" URL="../FPGA/rqcBob/Detector/rqcBob Get Detection Window.vi"/>
+				<Item Name="rqc FIFO Write.vi" Type="VI" URL="../../../Shared/Shared FPGA Lib/Shared Logic/FIFO/rqc FIFO Write.vi"/>
+				<Item Name="rqc FIFO Write (U8).vi" Type="VI" URL="../../../Shared/Shared FPGA Lib/Shared Logic/FIFO/FIFO.write/rqc FIFO Write (U8).vi"/>
+				<Item Name="rqc FIFO Write (U32).vi" Type="VI" URL="../../../Shared/Shared FPGA Lib/Shared Logic/FIFO/FIFO.write/rqc FIFO Write (U32).vi"/>
+				<Item Name="rqc FIFO Write (U16).vi" Type="VI" URL="../../../Shared/Shared FPGA Lib/Shared Logic/FIFO/FIFO.write/rqc FIFO Write (U16).vi"/>
+				<Item Name="rqcBob Get Detector State (2 SPD).vi" Type="VI" URL="../FPGA/rqcBob/Detector/Get Detector State/rqcBob Get Detector State (2 SPD).vi"/>
+				<Item Name="rqcBob Photon Detector (FPGA).vi" Type="VI" URL="../FPGA/rqcBob/Detector/rqcBob Photon Detector (FPGA).vi"/>
+				<Item Name="rqc Random Number Generator.vi" Type="VI" URL="../../../Shared/Shared FPGA Lib/Shared Logic/rqc Random Number Generator.vi"/>
+				<Item Name="rqcBob Define Detection Window.vi" Type="VI" URL="../FPGA/rqcBob/Detector/rqcBob Define Detection Window.vi"/>
+				<Item Name="SPI.write (FPGA).vi" Type="VI" URL="../../../Shared/Shared FPGA Lib/Custom SPI/SPI.write (FPGA).vi"/>
+				<Item Name="SPI.cluster.ctl" Type="VI" URL="../../../Shared/Shared FPGA Lib/Custom SPI/typedefs/SPI.cluster.ctl"/>
+				<Item Name="SPI.states.ctl" Type="VI" URL="../../../Shared/Shared FPGA Lib/Custom SPI/typedefs/SPI.states.ctl"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="rqcBob (FPGA) 7811" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -5412,7 +5441,7 @@
 					<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 					<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 					<Property Name="Comp.RandomSeed" Type="Bool">true</Property>
-					<Property Name="Comp.Version.Build" Type="Int">84</Property>
+					<Property Name="Comp.Version.Build" Type="Int">85</Property>
 					<Property Name="Comp.Version.Fix" Type="Int">0</Property>
 					<Property Name="Comp.Version.Major" Type="Int">1</Property>
 					<Property Name="Comp.Version.Minor" Type="Int">0</Property>
@@ -7361,6 +7390,35 @@
 					<Item Name="Counter (U16).vi" Type="VI" URL="/&lt;vilib&gt;/RQC/FPGA Basic Logic/Counters/Counter (U16).vi"/>
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				</Item>
+				<Item Name="rqcBob Trigger Type.ctl" Type="VI" URL="../FPGA/rqcBob/Custom Controls/rqcBob Trigger Type.ctl"/>
+				<Item Name="rqcBob Main SM.ctl" Type="VI" URL="../FPGA/rqcBob/Custom Controls/Main State Machine/rqcBob Main SM.ctl"/>
+				<Item Name="rqcBob Main Operation State.ctl" Type="VI" URL="../FPGA/rqcBob/Custom Controls/Main State Machine/rqcBob Main Operation State.ctl"/>
+				<Item Name="rqcBob Main Operation Parameters.ctl" Type="VI" URL="../FPGA/rqcBob/Custom Controls/Main State Machine/rqcBob Main Operation Parameters.ctl"/>
+				<Item Name="rqcBob Pulse Train Config.ctl" Type="VI" URL="../FPGA/rqcBob/Custom Controls/Pulse Train/rqcBob Pulse Train Config.ctl"/>
+				<Item Name="rqcBob Pulse Train.Generation Mode.ctl" Type="VI" URL="../FPGA/rqcBob/Custom Controls/Pulse Train/rqcBob Pulse Train.Generation Mode.ctl"/>
+				<Item Name="rqcBob Pulse Train.First Pulse Delay Mode.ctl" Type="VI" URL="../FPGA/rqcBob/Custom Controls/Pulse Train/rqcBob Pulse Train.First Pulse Delay Mode.ctl"/>
+				<Item Name="rqcBob Modulator Config.ctl" Type="VI" URL="../FPGA/rqcBob/Custom Controls/rqcBob Modulator Config.ctl"/>
+				<Item Name="rqcBob Window Config.ctl" Type="VI" URL="../FPGA/rqcBob/Custom Controls/rqcBob Window Config.ctl"/>
+				<Item Name="rqcBob Detector Settings.ctl" Type="VI" URL="../FPGA/rqcBob/Custom Controls/rqcBob Detector Settings.ctl"/>
+				<Item Name="rqc Random Generator.parameters.ctl" Type="VI" URL="../../../Shared/Shared FPGA Lib/Shared Logic/Custom Controls/rqc Random Generator.parameters.ctl"/>
+				<Item Name="rqc Random Generator.value type.ctl" Type="VI" URL="../../../Shared/Shared FPGA Lib/Shared Logic/Custom Controls/rqc Random Generator.value type.ctl"/>
+				<Item Name="rqc Clock Generator.vi" Type="VI" URL="../../../Shared/Shared FPGA Lib/Shared Logic/rqc Clock Generator.vi"/>
+				<Item Name="rqcBob Trigger Router (FPGA).vi" Type="VI" URL="../FPGA/rqcBob/rqcBob Trigger Router (FPGA).vi"/>
+				<Item Name="rqcBob Main Operation SM (FPGA).vi" Type="VI" URL="../FPGA/rqcBob/rqcBob Main Operation SM (FPGA).vi"/>
+				<Item Name="rqcBob HW Control.ctl" Type="VI" URL="../FPGA/rqcBob/Custom Controls/rqcBob HW Control.ctl"/>
+				<Item Name="rqcBob Modulator (FPGA).vi" Type="VI" URL="../FPGA/rqcBob/rqcBob Modulator (FPGA).vi"/>
+				<Item Name="rqcBob Get Detection Window.vi" Type="VI" URL="../FPGA/rqcBob/Detector/rqcBob Get Detection Window.vi"/>
+				<Item Name="rqc FIFO Write.vi" Type="VI" URL="../../../Shared/Shared FPGA Lib/Shared Logic/FIFO/rqc FIFO Write.vi"/>
+				<Item Name="rqc FIFO Write (U8).vi" Type="VI" URL="../../../Shared/Shared FPGA Lib/Shared Logic/FIFO/FIFO.write/rqc FIFO Write (U8).vi"/>
+				<Item Name="rqc FIFO Write (U32).vi" Type="VI" URL="../../../Shared/Shared FPGA Lib/Shared Logic/FIFO/FIFO.write/rqc FIFO Write (U32).vi"/>
+				<Item Name="rqc FIFO Write (U16).vi" Type="VI" URL="../../../Shared/Shared FPGA Lib/Shared Logic/FIFO/FIFO.write/rqc FIFO Write (U16).vi"/>
+				<Item Name="rqcBob Get Detector State (2 SPD).vi" Type="VI" URL="../FPGA/rqcBob/Detector/Get Detector State/rqcBob Get Detector State (2 SPD).vi"/>
+				<Item Name="rqcBob Photon Detector (FPGA).vi" Type="VI" URL="../FPGA/rqcBob/Detector/rqcBob Photon Detector (FPGA).vi"/>
+				<Item Name="rqc Random Number Generator.vi" Type="VI" URL="../../../Shared/Shared FPGA Lib/Shared Logic/rqc Random Number Generator.vi"/>
+				<Item Name="rqcBob Define Detection Window.vi" Type="VI" URL="../FPGA/rqcBob/Detector/rqcBob Define Detection Window.vi"/>
+				<Item Name="SPI.states.ctl" Type="VI" URL="../../../Shared/Shared FPGA Lib/Custom SPI/typedefs/SPI.states.ctl"/>
+				<Item Name="SPI.cluster.ctl" Type="VI" URL="../../../Shared/Shared FPGA Lib/Custom SPI/typedefs/SPI.cluster.ctl"/>
+				<Item Name="SPI.write (FPGA).vi" Type="VI" URL="../../../Shared/Shared FPGA Lib/Custom SPI/SPI.write (FPGA).vi"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="rqcBob (FPGA)" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
