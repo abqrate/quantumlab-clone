@@ -6772,7 +6772,6 @@
 			<Item Name="rqcAlice SPI PM Level test 1.0.0.lvbitx" Type="Document" URL="../FPGA Bitfiles/rqcAlice SPI PM Level test 1.0.0.lvbitx"/>
 			<Item Name="rqc Random Generator.value type.ctl" Type="VI" URL="../../../Shared/Shared FPGA Lib/Shared Logic/Custom Controls/rqc Random Generator.value type.ctl"/>
 			<Item Name="rqc Random Generator.parameters.ctl" Type="VI" URL="../../../Shared/Shared FPGA Lib/Shared Logic/Custom Controls/rqc Random Generator.parameters.ctl"/>
-			<Item Name="rqcAlice FPGA (7820R) v 3.2.0.lvbitx" Type="Document" URL="../../../../../Automated Measurements/Optical Attenuator/FPGA Bitfiles/rqcAlice FPGA (7820R) v 3.2.0.lvbitx"/>
 			<Item Name="rqcAlice FPGA (7820R) v 3.2.0.lvbitx" Type="Document" URL="../FPGA Bitfiles/rqcAlice FPGA (7820R) v 3.2.0.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
